@@ -1,0 +1,5 @@
+P= float(input("Enter monthly deposit: "))
+r=float(input("Enter monthly interest rate: "))
+n=float(input("Enter number of months: "))
+F=P*((((1+r)**n)-1)/r)
+print("Future value:",F)
